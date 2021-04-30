@@ -49,6 +49,6 @@ void displayRangeAndNumberOfReadings(std::vector<CurrentReadingsParameters*>& up
 {
 	cout << "Range , Readings" << endl;
 	for (const auto& i : updatedCurrentReadings)
-		cout << i->current_min << "To" << i->current_max << "  ,  " << i->number_of_readings << endl;
+		cout << i->current_min << " To " << i->current_max << "  ,  " << i->number_of_readings << endl;
 }
 

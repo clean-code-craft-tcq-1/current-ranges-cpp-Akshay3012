@@ -22,7 +22,7 @@ void processCurrentReadingsData(std::vector<int> inputCurrentSamples, std::vecto
             {
                  reading_max = *i;
                  totalReadings = totalReadings+1 ;  
-                 reading_min = 0;
+                 //reading_min = 0;
                  //currentParam_st.push_back(new CurrentReadingsParameters{ reading_min,reading_max,totalReadings });
             }
             else

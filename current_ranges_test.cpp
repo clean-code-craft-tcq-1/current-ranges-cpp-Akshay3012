@@ -9,6 +9,7 @@ int main ()
 {
 	
 	// Posistive : Number of Ranges in the Current Readings
+	std::vector<CurrentReadingsParameters*> RangeAndReadings = {};
 	processCurrentReadingsData({ 1, 2, 2, 3, 4, 24, 25, 26 }, RangeAndReadings);
 	assert(RangeAndReadings.size()==2);
 	
@@ -20,7 +21,6 @@ int main ()
 	assert(RangeAndReadings[1]->number_of_readings == 3);
 	
 	// Negative : Check for No (0) Current readings
-  	std::vector<CurrentReadingsParameters*> RangeAndReadings = {};
 	processCurrentReadingsData({}, RangeAndReadings);
 	assert(RangeAndReadings.empty() == true);
 	

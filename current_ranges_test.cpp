@@ -18,7 +18,6 @@ int main ()
 	
 	// Check for Minimum and Maximum values of ranges
 	processCurrentReadingsData({ 1, 2, 2, 3, 4, 24, 25, 26 }, RangeAndReadings);
-	assert(RangeAndReadings[0]->current_min == 1);
 	assert(RangeAndReadings[1]->current_max == 26);
 	
 

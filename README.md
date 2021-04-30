@@ -52,8 +52,11 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 Implement one failing test and at least one passing test:
 
-**Passing Test:
+**Passing Test:**
+Number of Ranges in the Current Readings
+Check for Minimum, Maximum values and total number of readings of ranges
 
 
-**Failing Test:
+**Failing Test:**
+Check for No (0) Current readings
 

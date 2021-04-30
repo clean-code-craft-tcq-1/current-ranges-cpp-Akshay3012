@@ -52,11 +52,3 @@ void displayRangeAndNumberOfReadings(std::vector<CurrentReadingsParameters*>& up
 		cout << i->current_min << "To" << i->current_max << "  ,  " << i->number_of_readings << endl;
 }
 
-
-int main (void)
-{
-    std::vector<RangeInfo*> ListOfRangesInfo = {};
-	processRangeInfo({ 3, 3, 5, 4, 10, 11, 12 }, ListOfRangesInfo);
-	cout << (ListOfRangesInfo.size()); 
-}
-

@@ -9,7 +9,7 @@ int main ()
 {
 	// Check for No (0) Current readings
   	std::vector<CurrentReadingsParameters*> RangeAndReadings = {};
-	processCurrentReadingsDatas({}, RangeAndReadings);
+	processCurrentReadingsData({}, RangeAndReadings);
 	assert(RangeAndReadings.empty() == true);
 	
 	// Number of Ranges in the Current Readings

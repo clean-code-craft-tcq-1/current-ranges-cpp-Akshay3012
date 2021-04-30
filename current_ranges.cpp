@@ -8,7 +8,7 @@ std::vector<int> sortCurrentReadingsData (std::vector<int>& periodicCurrentSampl
 	return periodicCurrentSample;
 }
 
-void processCurrentReadingsData(std::vector<int> inputCurrentSamples, std::vector<CurrentReadingsParameters*>currentParam_st)
+void processCurrentReadingsData(std::vector<int> inputCurrentSamples, std::vector<CurrentReadingsParameters*>& currentParam_st)
 {
 	std::vector<int> sortedCurrentSample = sortCurrentReadingsData(inputCurrentSamples);
 	int reading_min = 0;

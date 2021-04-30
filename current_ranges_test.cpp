@@ -1,6 +1,9 @@
 #include "current_ranges.h"
-#include <assert.h>
+#include <stdio.h>
+#include <vector>
+#include <algorithm>
 #include <cmath>
+#include <assert.h>
 
 int main ()
 {
